@@ -1,0 +1,31 @@
+git config --global user.name
+git config --global user.email
+git config --global --edit
+git init (initialize folder)
+git status (-s)
+git add filename
+git add -A
+git commit(i,esc + :wq)
+git commit -m "message"
+git commit -a -m "skipping staging area"
+git checkout recoverfilename
+git checkout -f
+git checkout (hashcode of the commit log)
+git log (-p -1/2/3)
+git diff(working directry vs staging area)
+git diff --staged staging area vs last commit
+git rm filename
+git rm --cached filename(only staging area remove remain in hard disk)
+.gitignore
+(put file name to ignore)
+git fetch -prune <remote>  delete all the objects that are not reachable from the remote repository
+git branch branchname (create branch)
+git branch (list of branches)
+git checkout (-b) branchname (change branch)  //-b to directly create and checkout to that branch
+git merge branchname
+
+
+
+
+
+hashcode is nothing but branches created under master or main branch by the git to track the file
